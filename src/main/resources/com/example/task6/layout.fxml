@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.ColorPicker?>
+<?import javafx.scene.canvas.Canvas?>
+
+<AnchorPane xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.example.task6.Controller">
+    <ListView fx:id="listView" layoutX="10" layoutY="10" prefWidth="150"/>
+    <ColorPicker fx:id="colorPicker" layoutX="10" layoutY="170"/>
+    <Canvas fx:id="canvas" layoutX="200" layoutY="10" width="400" height="400" onMouseClicked="#drawShape"/>
+</AnchorPane>
